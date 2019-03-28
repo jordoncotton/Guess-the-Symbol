@@ -1,4 +1,4 @@
-﻿namespace Guess_the_Symbol
+﻿namespace MathQuiz
 {
     partial class Form1
     {
@@ -91,8 +91,8 @@
             // 
             // Symbol
             // 
-            this.Symbol.Image = global::Guess_the_Symbol.Properties.Resources.qq;
-            this.Symbol.InitialImage = global::Guess_the_Symbol.Properties.Resources.plus;
+            this.Symbol.Image = global::MathQuiz.Properties.Resources.qq;
+            this.Symbol.InitialImage = global::MathQuiz.Properties.Resources.plus;
             this.Symbol.Location = new System.Drawing.Point(118, 6);
             this.Symbol.Name = "Symbol";
             this.Symbol.Size = new System.Drawing.Size(100, 50);

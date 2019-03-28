@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guess the Symbol", "Guess the Symbol\Guess the Symbol.csproj", "{3487E2D7-11BA-419F-8D80-0F7F03A86F54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathQuiz", "Guess the Symbol\MathQuiz.csproj", "{3487E2D7-11BA-419F-8D80-0F7F03A86F54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

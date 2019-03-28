@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Guess_the_Symbol
+namespace MathQuiz
 {
     static class Program
     {

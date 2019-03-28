@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Guess_the_Symbol.Properties
+namespace MathQuiz.Properties
 {
 
 

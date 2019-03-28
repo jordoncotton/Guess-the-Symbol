@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 //
-namespace Guess_the_Symbol
+namespace MathQuiz
 {
     public partial class Form1 : Form
     {
@@ -34,13 +34,6 @@ namespace Guess_the_Symbol
 
         }
 
-        private void ReportResult(string messsage, int score)
-        {
-            bool message = false;
-            Console.WriteLine(message);
-            Console.WriteLine("Your score:" + score);
-        }
-
         private void KeyisDown(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.P || e.KeyChar == 112)
@@ -64,6 +57,7 @@ namespace Guess_the_Symbol
             else if (e.KeyChar == (char)Keys.D || e.KeyChar == 100)
             {
                 check = 4;
+                
                 checkStart();
             } 
         }
@@ -101,7 +95,17 @@ namespace Guess_the_Symbol
             num1.Text = Convert.ToString(numA);
             num2.Text = Convert.ToString(numB);
             total.Text = Convert.ToString(totalA);
+            score += check;
             Console.WriteLine();
+
+            if (score == check)
+            {
+                score += 1;
+            }
+            else
+            {
+                score -= 1;
+            }
         }
 
         public void addNum()
@@ -158,7 +162,7 @@ namespace Guess_the_Symbol
                 MessageBox.Show("Wrong Answer");
                 Symbol.Image = Properties.Resources.qq;
                 Start();  
-            }
+            } 
         }
     }
 }
